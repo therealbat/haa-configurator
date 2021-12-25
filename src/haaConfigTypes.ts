@@ -10,6 +10,11 @@ export interface generalConfig {
   l?: number;
 
   /**
+   * dhcp hostname
+   */
+  n?: string;
+  
+  /**
    * [0-default,1] status LED inverted
    */
   i?: 0 | 1;
